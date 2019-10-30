@@ -3,7 +3,7 @@
 #
 name: Filter Contigs
 tooltip: |
-  Filters the contigs by removing contigs below a length threshold
+  Filters the contigs by removing contigs below a length threshold TESTING !!!
 screenshots: []
 
 icon: null
