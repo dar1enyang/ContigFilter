@@ -51,7 +51,6 @@ This sample module contains one small method that filters contigs.
         #END_CONSTRUCTOR
         pass
 
-
     def run_yangdar1en_ContigFilterDemo(self, ctx, params):
         """
         This example function accepts any number of parameters and returns results in a KBaseReport
@@ -232,6 +231,7 @@ This sample module contains one small method that filters contigs.
             'n_remaining': n_remaining,
             'filtered_assembly_ref': new_ref
         }
+
         ########################################################
         # output = {
         #     'n_total': n_total,
@@ -246,6 +246,7 @@ This sample module contains one small method that filters contigs.
                              'output is not type dict as required.')
         # return the results
         return [output]
+
     def status(self, ctx):
         #BEGIN_STATUS
         returnVal = {'state': "OK",
